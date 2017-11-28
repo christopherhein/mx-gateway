@@ -1,0 +1,17 @@
+{
+  "name": "gateway",
+  "version": "0.0.1",
+  "description": "api proxy w/ masking",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node app.js"
+  },
+  "author": "Christopher Hein <me@christopherhein.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-partial-response": "^0.3.4",
+    "request": "^2.81.0"
+  }
+}
